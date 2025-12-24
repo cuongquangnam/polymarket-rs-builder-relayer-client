@@ -4287,6 +4287,7 @@ checksum = "7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c"
 [[package]]
 name = "polymarket-client-sdk"
 version = "0.1.1"
+source = "git+https://github.com/cuongquangnam/rs-clob-client.git#d6ecac56031d04a682ba2c7905fffff5508480aa"
 dependencies = [
  "alloy",
  "async-stream",
@@ -4295,7 +4296,6 @@ dependencies = [
  "chrono",
  "dashmap",
  "derive_builder",
- "dotenv",
  "futures",
  "hmac",
  "phf 0.13.1",

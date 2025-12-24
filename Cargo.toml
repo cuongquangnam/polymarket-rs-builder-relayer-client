@@ -42,7 +42,7 @@ chrono = { version = "0.4", features = ["serde"] }
 lazy_static = "1.4"
 
 # Polymarket packages
-polymarket-client-sdk = {path = "../rs-clob-client"}
+polymarket-client-sdk = {git="https://github.com/cuongquangnam/rs-clob-client.git"}
 uuid = "1.19.0"
 alloy = { version = "1.1.3", default-features = false, features = [
     "contract",

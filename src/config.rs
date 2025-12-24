@@ -1,4 +1,3 @@
-use crate::constants::ZERO_ADDRESS;
 use crate::errors::RelayerClientException;
 use ethers::types::Address;
 use std::collections::HashMap;
@@ -44,4 +43,3 @@ pub fn get_contract_config(chain_id: u64) -> Result<ContractConfig, RelayerClien
         .cloned()
         .ok_or_else(|| RelayerClientException::new(format!("Invalid chainID: {}", chain_id)))
 }
-
